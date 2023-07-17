@@ -92,7 +92,7 @@
     text-decoration: underline;
 }
 .padding-space{
-    padding-top: 20px;
+    padding-top: 48px;
 }
 @media (min-width: 992px) {
     .navbar-dark .navbar-nav .nav-link::before {
@@ -125,11 +125,11 @@
 }
 .contact-item,
 .service-item {
-    background: url(../img/services.jpeg) top center/cover no-repeat;
+    background: linear-gradient(rgba(70, 130, 180, .8), rgb(34 64 178 / 43%)),url(../img/services.jpeg) top center/cover no-repeat;
 }
 .contact-item:hover,
 .service-item:hover {
-    background: url(../img/services.jpeg) bottom center/cover no-repeat;
+    background: linear-gradient(rgba(70, 130, 180, .8), rgb(34 64 178 / 43%)),url(../img/services.jpeg) bottom center/cover no-repeat;
 }
 .service-item.student-visa,
 .service-item.student-visa:hover {
@@ -223,9 +223,7 @@
     .t-none{
         display: block;
     }
-    .padding-space{
-        padding-top: 48px;
-    }
+    
 }
 .team-item {
     position: relative;
