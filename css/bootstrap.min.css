@@ -147,6 +147,7 @@
  p,
  ul {
      margin-bottom: 1rem;
+     word-wrap: break-word;
  }
  address,
  legend {
